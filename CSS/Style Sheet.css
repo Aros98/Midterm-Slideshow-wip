@@ -1,0 +1,103 @@
+  *{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+   }
+ 
+   header{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 15px;
+      text-align: left ;
+      margin: 25px;
+   }
+
+   nav{ 
+      background-color: black;
+      padding: .15em 0;
+      width: 100%;
+   }
+   
+   nav{
+      position: -webkit-sticky;
+      position: sticky; top: 0px;
+   }
+
+   nav ul li {
+      display: inline-block;
+      width: 250px;
+      margin-block: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 21px;
+       
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+   }
+  
+   nav ul{
+      text-align: center;
+   }
+
+    nav li a{
+      color: rgb(0, 0, 0);
+      
+      -webkit-text-stroke: 0.5px white;
+      -moz-text-stroke: 0.5px px white;
+      -o-text-stroke: 0.5px white;
+      -ms-text-stroke: 0.5px white;
+      
+      text-decoration: none;
+   }
+   
+   li a:hover {
+      color: rgb(255, 255, 255);
+   }
+
+   .intro{
+      font-family: sans-serif;
+      font-weight: light;
+      padding: 150px;
+      text-align: center;
+   }
+
+   h2{
+      font-size: xx-large;
+
+   }
+
+   .poster{
+      display: flex;
+      justify-content: space-evenly; 
+      margin-block: 50px;
+   }
+
+   main aside{
+      display: flex;
+      justify-content: space-evenly;
+      
+   }
+
+   Aside div{
+      width: 30%;
+   }
+
+   aside img{
+      width: 100%;
+   }
+
+   main img{
+      width: 100%;
+   }
+
+ 
+
+   footer{
+      float: center;
+      text-align: center;
+      margin: 30px;
+      padding-block: 50px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+   }
